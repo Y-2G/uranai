@@ -7,60 +7,105 @@
 	<link rel="stylesheet" href="page-contact.css">
 </head>
 <body>
-	<div class="uranai__container">
+	<div class="contact__container">
 
-		<header class="uranai__global-header">
-			<div class="uranai__global-logo">
+		<header class="contact__global-header">
+			<div class="contact__global-logo">
 				<img src="img/logo.png" alt= logo/>
 			</div>
-			<nav class="uranai__global-navi"></nav>
+			<nav class="contact__global-navi"></nav>
 		</header>
 		<!-- /header -->
 
-		<div class="uranai__content">
-			<section class="uranai__first-view">
+		<div class="contact__content">
+			<section class="contact__first-view">
 				<img src="img/first-view-uranai.jpeg" alt="占いの紹介" />
 			</section>
 		
-			<section id="uranaiUranai" class="uranai__section">
-				<div class="uranai__row">
-					<h2>占いの紹介</h2>
+			<section id="uranaiUranai" class="contact__section">
+				<div class="contact__row">
+					<h2>お問い合わせ</h2>
 				</div>
-				<div class="uranai__row">
-					<p>私がいつもやっている占いをご紹介します。ここにのっていない占いを行える場合もあります。</p>
-				</div>
-				<div class="uranai__row">
-					<ul class="uranai__uranai">
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-tesojustsu.png" alt="手相術">
-							<span>手相術</span>
-						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-ninsojutsu.png" alt="人相術">
-							<span>人相術</p>
-						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-kyuseikigaku.png" alt="九星気学">
-							<span>九星気学</span>
-						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-inner-child-card.png" alt="インナーチャイルドカード">
-							<span>インナーチャイルドカード</span>
-						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-flower-essential.png" alt="フラワーエッセンシャル">
-							<span>フラワーエッセンシャル</span>
-						</li>
-					</ul>
+				<div class="contact__row">
+					<form class="contact__form">
+						<fieldset>
+							<div class="contact__form-group">
+								<p>お問い合わせの種類</p>
+								<label for="inquiry">お問い合わせ</label>
+								<input type="radio" id="inquiry" name="kind" checked />
+								<label for="reservation">鑑定のご予約</label>
+								<input type="radio" id="reservation" name="kind" />
+							</div>
+						</fieldset>
+						<fieldset>
+							<div class="contact__form-group">
+								<p><label for="name">お名前</label></p>
+								<input type="text" id="name" name="name" />
+							</div>
+							<div class="contact__form-group">
+								<p><label for="furigana">ふりがな</label></p>
+								<input type="text" id="furigana" name="furigana" />
+							</div>
+							<div class="contact__form-group">
+								<p><label for="mail">メールアドレス</label></p>
+								<input type="email" id="mail" name="mail" />
+							</div>
+							<div class="contact__form-group">
+								<p><label for="phon">お電話番号</label></p>
+								<input type="text" id="phon" name="phon" />
+							</div>
+							<div class="contact__form-group">
+								<p><label for="detail">お問い合わせ内容</label></p>
+								<textArea type="text" id="detail" name="detail"></textArea>
+							</div>
+							<button type="submit">送信</button>
+						</fieldset>
+						<fieldset>
+							<div class="contact__form-group">
+								<p>鑑定の種類</p>
+								<label for="offline">オフライン</label>
+								<input type="radio" id="offline" name="kind" checked />
+								<label for="online">オンライン</label>
+								<input type="radio" id="online" name="kind" />
+							</div>
+							<div class="contact__form-group">
+								<p><label for="name">お名前</label></p>
+								<input type="text" id="name" name="name" />
+							</div>
+							<div class="contact__form-group">
+								<p><label for="furigana">ふりがな</label></p>
+								<input type="text" id="furigana" name="furigana" />
+							</div>
+							<div class="contact__form-group">
+								<p><label for="mail">メールアドレス</label></p>
+								<input type="email" id="mail" name="mail" />
+							</div>
+							<div class="contact__form-group">
+								<p><label for="phon">お電話番号</label></p>
+								<input type="text" id="phon" name="phon" />
+							</div>
+							<div class="contact__form-group">
+								<p><label for="detail">ご希望日時</label></p>
+								<input type="date" id="date" name="date" />
+								<input type="time" id="time" name="time" />
+							</div>
+							<div class="contact__form-group">
+								<p><label for="detail">備考</label></p>
+								<textArea type="text" id="detail" name="detail"></textArea>
+							</div>
+							<button type="submit">送信</button>
+						</fieldset>
+
+					</form>
 				</div>
 			</section>
 			<!-- /section -->
 			
 		</div>
-		<!-- /.uranai__content -->
+		<!-- /.contact__content -->
 		
-		<footer class="uranai__fotter">
-			<nav class="uranai__fotter-navi">
+		<footer class="contact__fotter">
+			<nav class="contact__fotter-navi">
 			<ul>
 				<li><a href="#uranaiIntro">ごあいさつ</a></li>
 				<li><a href="#uranaiUranai">占いの紹介</a></li>
@@ -74,21 +119,21 @@
 				<li><a href="#">特定商取引法に基づく表示</a></li>
 			</ul>
 			</nav>
-			<div class="uranai__fotter-row">
-			<div class="uranai__fotter-logo"><a href="#"><img src="img/logo.png" /></a></div>
-			<ul class="uranai__fotter-sns">
-				<li class="uranai__fotter-sns-item"><a href="#"><img src="img/icon-twitter.png" /></a></li>
-				<li class="uranai__fotter-sns-item"><a href="#"><img src="img/icon-instagram.png" /></a></li>
-				<li class="uranai__fotter-sns-item"><a href="#"><img src="img/icon-facebook.png" /></a></li>
+			<div class="contact__fotter-row">
+			<div class="contact__fotter-logo"><a href="#"><img src="img/logo.png" /></a></div>
+			<ul class="contact__fotter-sns">
+				<li class="contact__fotter-sns-item"><a href="#"><img src="img/icon-twitter.png" /></a></li>
+				<li class="contact__fotter-sns-item"><a href="#"><img src="img/icon-instagram.png" /></a></li>
+				<li class="contact__fotter-sns-item"><a href="#"><img src="img/icon-facebook.png" /></a></li>
 			</ul>
 			</div>
-			<div class="uranai__copy-write">@2021 urania lala.</div>
+			<div class="contact__copy-write">@2021 urania lala.</div>
 
 		</footer>
 		<!-- /footer -->
 
 	</div>
-	<!-- /.uranai__container -->
+	<!-- /.contact__container -->
 
 </body>
 </html>

@@ -7,60 +7,51 @@
 	<link rel="stylesheet" href="page-charge.css">
 </head>
 <body>
-	<div class="uranai__container">
+	<div class="charge__container">
 
-		<header class="uranai__global-header">
-			<div class="uranai__global-logo">
+		<header class="charge__global-header">
+			<div class="charge__global-logo">
 				<img src="img/logo.png" alt= logo/>
 			</div>
-			<nav class="uranai__global-navi"></nav>
+			<nav class="charge__global-navi"></nav>
 		</header>
 		<!-- /header -->
 
-		<div class="uranai__content">
-			<section class="uranai__first-view">
+		<div class="charge__content">
+			<section class="charge__first-view">
 				<img src="img/first-view-uranai.jpeg" alt="占いの紹介" />
 			</section>
 		
-			<section id="uranaiUranai" class="uranai__section">
-				<div class="uranai__row">
-					<h2>占いの紹介</h2>
+			<section id="uranaiUranai" class="charge__section">
+				<div class="charge__row">
+					<h2>鑑定料金のご案内</h2>
 				</div>
-				<div class="uranai__row">
-					<p>私がいつもやっている占いをご紹介します。ここにのっていない占いを行える場合もあります。</p>
+				<div class="charge__row">
+					<h3>鑑定料金表</h3>
+					<dl class="charge__table">
+						<dt>15分</dt>
+						<dd>2,000円</dd>
+						<dt>30分</dt>
+						<dd>4,000円</dd>
+						<dt>45分</dt>
+						<dd>6,000円</dd>
+						<dt>60分</dt>
+						<dd>8,000円</dd>
+					</dl>
 				</div>
-				<div class="uranai__row">
-					<ul class="uranai__uranai">
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-tesojustsu.png" alt="手相術">
-							<span>手相術</span>
-						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-ninsojutsu.png" alt="人相術">
-							<span>人相術</p>
-						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-kyuseikigaku.png" alt="九星気学">
-							<span>九星気学</span>
-						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-inner-child-card.png" alt="インナーチャイルドカード">
-							<span>インナーチャイルドカード</span>
-						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-flower-essential.png" alt="フラワーエッセンシャル">
-							<span>フラワーエッセンシャル</span>
-						</li>
-					</ul>
+				<div class="charge__row">
+					<h3>料金表についてのご注意</h3>
+					<p>※ 上記の料金は消費税込表示価格です。</p>
+					<p>※ 鑑定料金のみを表示しております。遠隔から起こしただいた場合の交通費や、通話ソフトなどの使用で発生する通信費などは、お客様負担となるのでご注意ください。</p>
 				</div>
 			</section>
 			<!-- /section -->
 			
 		</div>
-		<!-- /.uranai__content -->
+		<!-- /.charge__content -->
 		
-		<footer class="uranai__fotter">
-			<nav class="uranai__fotter-navi">
+		<footer class="charge__fotter">
+			<nav class="charge__fotter-navi">
 			<ul>
 				<li><a href="#uranaiIntro">ごあいさつ</a></li>
 				<li><a href="#uranaiUranai">占いの紹介</a></li>
@@ -74,21 +65,21 @@
 				<li><a href="#">特定商取引法に基づく表示</a></li>
 			</ul>
 			</nav>
-			<div class="uranai__fotter-row">
-			<div class="uranai__fotter-logo"><a href="#"><img src="img/logo.png" /></a></div>
-			<ul class="uranai__fotter-sns">
-				<li class="uranai__fotter-sns-item"><a href="#"><img src="img/icon-twitter.png" /></a></li>
-				<li class="uranai__fotter-sns-item"><a href="#"><img src="img/icon-instagram.png" /></a></li>
-				<li class="uranai__fotter-sns-item"><a href="#"><img src="img/icon-facebook.png" /></a></li>
+			<div class="charge__fotter-row">
+			<div class="charge__fotter-logo"><a href="#"><img src="img/logo.png" /></a></div>
+			<ul class="charge__fotter-sns">
+				<li class="charge__fotter-sns-item"><a href="#"><img src="img/icon-twitter.png" /></a></li>
+				<li class="charge__fotter-sns-item"><a href="#"><img src="img/icon-instagram.png" /></a></li>
+				<li class="charge__fotter-sns-item"><a href="#"><img src="img/icon-facebook.png" /></a></li>
 			</ul>
 			</div>
-			<div class="uranai__copy-write">@2021 urania lala.</div>
+			<div class="charge__copy-write">@2021 urania lala.</div>
 
 		</footer>
 		<!-- /footer -->
 
 	</div>
-	<!-- /.uranai__container -->
+	<!-- /.charge__container -->
 
 </body>
 </html>

@@ -7,49 +7,71 @@
 	<link rel="stylesheet" href="page-voice.css">
 </head>
 <body>
-	<div class="uranai__container">
+	<div class="voice__container">
 
-		<header class="uranai__global-header">
-			<div class="uranai__global-logo">
+		<header class="voice__global-header">
+			<div class="voice__global-logo">
 				<img src="img/logo.png" alt= logo/>
 			</div>
-			<nav class="uranai__global-navi"></nav>
+			<nav class="voice__global-navi"></nav>
 		</header>
 		<!-- /header -->
 
-		<div class="uranai__content">
-			<section class="uranai__first-view">
+		<div class="voice__content">
+			<section class="voice__first-view">
 				<img src="img/first-view-uranai.jpeg" alt="占いの紹介" />
 			</section>
 		
-			<section id="uranaiUranai" class="uranai__section">
-				<div class="uranai__row">
-					<h2>占いの紹介</h2>
+			<section id="uranaiUranai" class="voice__section">
+				<div class="voice__row">
+					<h2>お客様の声</h2>
 				</div>
-				<div class="uranai__row">
-					<p>私がいつもやっている占いをご紹介します。ここにのっていない占いを行える場合もあります。</p>
-				</div>
-				<div class="uranai__row">
-					<ul class="uranai__uranai">
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-tesojustsu.png" alt="手相術">
-							<span>手相術</span>
+				<div class="voice__row">
+					<ul>
+						<li class="voice__box">
+							<div class="voice__box-header">
+								<ul class="voice__box-info">
+									<li>2021/02/23</li>
+									<li>Y様</li>
+								</ul>
+								<h3>考え方が素敵です</h3>
+							</div>
+							<div class="voice__box-content">
+								<p>たまたま機会があり、リモートで占っていただきました。</p>
+								<p>もともと占いについては懐疑的でしたが、愛々さんの占い哲学に感銘を受けました。</p>
+								<p>考え方次第で運は開ける。まさにそのとおりだと思います。</p>
+								<p>愛々さんのように考えていったら人生が楽になるように感じました。</p>
+							</div>
 						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-ninsojutsu.png" alt="人相術">
-							<span>人相術</p>
+						<li class="voice__box">
+							<div class="voice__box-header">
+								<ul class="voice__box-info">
+									<li>2021/02/23</li>
+									<li>Y様</li>
+								</ul>
+								<h3>考え方が素敵です</h3>
+							</div>
+							<div class="voice__box-content">
+								<p>たまたま機会があり、リモートで占っていただきました。</p>
+								<p>もともと占いについては懐疑的でしたが、愛々さんの占い哲学に感銘を受けました。</p>
+								<p>考え方次第で運は開ける。まさにそのとおりだと思います。</p>
+								<p>愛々さんのように考えていったら人生が楽になるように感じました。</p>
+							</div>
 						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-kyuseikigaku.png" alt="九星気学">
-							<span>九星気学</span>
-						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-inner-child-card.png" alt="インナーチャイルドカード">
-							<span>インナーチャイルドカード</span>
-						</li>
-						<li class="uranai__uranai-item">
-							<img src="img/uranai-flower-essential.png" alt="フラワーエッセンシャル">
-							<span>フラワーエッセンシャル</span>
+						<li class="voice__box">
+							<div class="voice__box-header">
+								<ul class="voice__box-info">
+									<li>2021/02/23</li>
+									<li>Y様</li>
+								</ul>
+								<h3>考え方が素敵です</h3>
+							</div>
+							<div class="voice__box-content">
+								<p>たまたま機会があり、リモートで占っていただきました。</p>
+								<p>もともと占いについては懐疑的でしたが、愛々さんの占い哲学に感銘を受けました。</p>
+								<p>考え方次第で運は開ける。まさにそのとおりだと思います。</p>
+								<p>愛々さんのように考えていったら人生が楽になるように感じました。</p>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -57,10 +79,10 @@
 			<!-- /section -->
 			
 		</div>
-		<!-- /.uranai__content -->
+		<!-- /.voice__content -->
 		
-		<footer class="uranai__fotter">
-			<nav class="uranai__fotter-navi">
+		<footer class="voice__fotter">
+			<nav class="voice__fotter-navi">
 			<ul>
 				<li><a href="#uranaiIntro">ごあいさつ</a></li>
 				<li><a href="#uranaiUranai">占いの紹介</a></li>
@@ -74,21 +96,21 @@
 				<li><a href="#">特定商取引法に基づく表示</a></li>
 			</ul>
 			</nav>
-			<div class="uranai__fotter-row">
-			<div class="uranai__fotter-logo"><a href="#"><img src="img/logo.png" /></a></div>
-			<ul class="uranai__fotter-sns">
-				<li class="uranai__fotter-sns-item"><a href="#"><img src="img/icon-twitter.png" /></a></li>
-				<li class="uranai__fotter-sns-item"><a href="#"><img src="img/icon-instagram.png" /></a></li>
-				<li class="uranai__fotter-sns-item"><a href="#"><img src="img/icon-facebook.png" /></a></li>
+			<div class="voice__fotter-row">
+			<div class="voice__fotter-logo"><a href="#"><img src="img/logo.png" /></a></div>
+			<ul class="voice__fotter-sns">
+				<li class="voice__fotter-sns-item"><a href="#"><img src="img/icon-twitter.png" /></a></li>
+				<li class="voice__fotter-sns-item"><a href="#"><img src="img/icon-instagram.png" /></a></li>
+				<li class="voice__fotter-sns-item"><a href="#"><img src="img/icon-facebook.png" /></a></li>
 			</ul>
 			</div>
-			<div class="uranai__copy-write">@2021 urania lala.</div>
+			<div class="voice__copy-write">@2021 urania lala.</div>
 
 		</footer>
 		<!-- /footer -->
 
 	</div>
-	<!-- /.uranai__container -->
+	<!-- /.voice__container -->
 
 </body>
 </html>

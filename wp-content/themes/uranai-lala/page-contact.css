@@ -25,12 +25,12 @@ body {
 /* ================================================== */
 
 /* container */
-.uranai__container {
+.contact__container {
     width: 100%;
 }
 
 /* header */
-.uranai__global-header {
+.contact__global-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,165 +44,91 @@ body {
     z-index: 2;
 }
 
-.uranai__global-logo {
+.contact__global-logo {
     display: inline;
     font-size: 0;
     width: 124px;
 }
 
-.uranai__global-navi {
+.contact__global-navi {
     width: 80px;
     height: 80px;
     background-color: #ccc;
 }
 
 /* content */
-.uranai__content {
+.contact__content {
     font-size: 14px;
     width: 100%;
     padding: 96px 16px 0 16px;
 }
 
 /* first view */
-.uranai__first-view {
+.contact__first-view {
     width: 100%;
     font-size: 0;
     margin-bottom: 64px;
 }
 
-.uranai__first-view > img {
+.contact__first-view > img {
     border-radius: 10px;
 }
 
-/* uranai__section */
-.uranai__section {
+/* contact__section */
+.contact__section {
     width: 100%;
     margin-bottom: 128px;
 }
 
-.uranai__section > .uranai__row {
+.contact__row {
     width: 100%;
     margin-bottom: 64px;
 }
 
-.uranai__section > .uranai__row:last-of-type {
+.contact__row:last-of-type {
     margin-bottom: 0px;
 }
 
-.uranai__section > .uranai__row  > h2 {
-    text-align: center;
-}
-
-.uranai__section > .uranai__row > p {
-    font-size: 14px;
-    margin-bottom: 16px;
-}
-
-.uranai__section > .uranai__row > p:last-of-type {
-    margin-bottom: 0;
-}
-
-/* .uranai__uranai */
-.uranai__uranai {
+/* contact__form */
+.contact__form {
     width: 100%;
-    text-align: center;
-    margin-bottom: 64px;
 }
 
-.uranai__uranai-item {
+.contact__form-group {
+    width: 100%;
+}
+
+.contact__form-label {
     display: block;
-    width: 98px;
-    margin: 64px auto;
-}
-
-/* .uranai__link */
-.uranai__link {
-    display: inline-flex;
-    align-items: center;
-    margin: 0 auto;
-    padding: 8px 16px;
-    cursor: pointer;
-    border-bottom: 1px solid #707070;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.uranai__link-icon {
-    display: inline-block;
-    width: 20px;
-    margin-right: 16px;
-}
-
-.uranai__table {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
-}
-
-.uranai__table > dt, .uranai__table > dd {
-    margin-bottom: 32px;
-}
-
-.uranai__table > dt {
-    width: 8em;
-
-}
-
-.uranai__table > dd{
-    width: calc(100% - 8em);
-}
-
-
-/* uranai__contact-btn */
-.uranai__contact-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 16px;
-    background: #FAEDE7;
-    border: 3px solid #535150;
-    transition: background-color .3s;
-    cursor: pointer;
-}
-
-.uranai__contact-btn:hover {
-    background: #EDDBD3;
-}
-
-.uranai__contact-icon{
-    display: inline-block;
-    width: 24px;
-    margin-right: 16px;
 }
 
 /* footer */
-.uranai__fotter {
+.contact__fotter {
     width: 100%;
     padding: 64px 16px;
     border-top: 1px solid #ccc;
     font-size: 12px;
 }
 
-.uranai__fotter-navi {
+.contact__fotter-navi {
     width: 100%;
     margin-bottom: 64px;
 }
 
-.uranai__fotter-navi > ul {
+.contact__fotter-navi > ul {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
-.uranai__fotter-navi > ul > li {
+.contact__fotter-navi > ul > li {
     display: inline-block;
     width: 50%;
     margin-bottom: 16px;
 }
 
-.uranai__fotter-row {
+.contact__fotter-row {
     width: 100%;
     display: flex;
     align-items: center;
@@ -210,26 +136,26 @@ body {
     margin-bottom: 64px;
 }
 
-.uranai__fotter-logo {
+.contact__fotter-logo {
     display: inline-block;
     font-size: 0;
     width: 74.29px;
     border: 1px solid #ccc;
 }
 
-.uranai__fotter-sns {
+.contact__fotter-sns {
     display: flex;
 }
 
-.uranai__fotter-sns-item {
+.contact__fotter-sns-item {
     font-size: 0;
     width: 40px;
 }
 
-.uranai__fotter-sns-item {
+.contact__fotter-sns-item {
     margin-right: 16px;
 }
 
-.uranai__fotter-sns-item:last-of-type {
+.contact__fotter-sns-item:last-of-type {
     margin-right: 0;
 }

@@ -46,7 +46,7 @@
 					<h2>占いの紹介</h2>
 				</div>
 				<div class="index__row">
-					<p>私がいつもやっている占いをご紹介します。ここにのっていない占いを行える場合もあります。</p>
+					<p>私がいつも行っている占いをご紹介します。ここにのっていない占いを行える場合もあります。</p>
 				</div>
 				<div class="index__row">
 					<ul class="index__uranai">
@@ -113,7 +113,7 @@
 			</section>
 			<section id="indexRrequest" class="index__section">
 				<div class="index__row">
-					<h2>ご依頼の方法</h2>
+					<h2>鑑定のご依頼</h2>
 				</div>
 				<div class="index__row">
 					<p>対面による鑑定の他、オンラインでの鑑定も行っております。詳しい内容については以下のリンクをご覧ください。</p>
